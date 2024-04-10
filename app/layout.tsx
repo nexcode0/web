@@ -16,7 +16,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
     return (
         <html className="scroll-smooth" lang="en">
         <body className={inter.className}>
-        <div className="flex flex-col h-screen gap-20 lg:gap-0 lg:justify-between bg-gray-100">
+        <div className="flex flex-col h-screen gap-10 lg:gap-0 lg:justify-between bg-gray-100">
             <header className="bg-white"><Navigation/></header>
             <main>{children}</main>
             <footer><Footer/></footer>
