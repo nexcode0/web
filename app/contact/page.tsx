@@ -8,7 +8,7 @@ export default function Page() {
                         <div className="text-neutral-500 pt-8">
                             <p className="text-neutral-500 pt-8">
                                 You can contact us at
-                                <a href="mailto:placeholder@nexcode.org"
+                                <a href="mailto:contact@nexcode.org"
                                    className="text-primary hover:underline hover:text-primary-100"> contact@nexcode.org</a>
                             </p>
                             <p className="pt-2 text-lg">
