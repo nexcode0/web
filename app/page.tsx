@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function Home() {
     return (
         <>
-            <div className="grid gap-y-10 select-none">
+            <div className="grid gap-y-10">
                 <div
                     className="bg-gray-100 container p-10 md:p-0 max-w-full grid text-center lg:text-left lg:grid-cols-2">
                     <div className="md:pt-20 lg:pl-20 lg:grid grid-rows-2">
-                    <span className=" justify-center text-neutral-600 pt-20">
+                    <span className="justify-center text-neutral-600 pt-20">
                         <div className="grid md:gap-y-4">
                             <div>
                              <span className="text-2xl md:text-7xl font-semibold">Accelerating <span
@@ -22,7 +22,7 @@ export default function Home() {
                     </span>
                     </div>
 
-                    <div className="lg:pl-20 pt-20 ">
+                    <div className="lg:pl-20 pt-20 select-none">
                         <Image src="/picture.svg" alt="Logo" width={600} height={283}/>
                     </div>
                 </div>
